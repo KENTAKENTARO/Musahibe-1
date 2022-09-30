@@ -27,3 +27,46 @@ margin-right: -125px;
     margin-left: -60px;
     margin-top: -60px;
 }
+.container{
+    position: relative;
+    width: 600px;
+    height: 350px;
+    left: 60%;
+}
+.chart{
+    display: flex;
+    padding: 5px;
+    width: 200px;
+    height: 200px;
+    border: 2px solid rgb(80, 135, 223);
+}
+.first-bar{
+    background-color: aqua;
+    width: 40px;
+    height: 190px;
+}
+.second-bar{
+    background-color: aqua;
+    width: 40px;
+    height: 139px;
+    position: relative;
+    left: 20%;
+    margin-left: -25px;
+    top: 51px;
+}
+.third-bar{
+    background-color: aqua;
+    width: 40px;
+    height: 70px;
+    position: relative;
+    left: 27%;
+    top: 120px;
+}
+.fourth-bar{
+    background-color: aqua;
+    width: 40px;
+    height: 168px;
+    position: relative;
+    left: 33%;
+    top: 22px;
+}
